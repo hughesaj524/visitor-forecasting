@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib as plt
 import numpy as np
+from operator import xor
 
 air = {
     "reserve": pd.read_csv("../data/air/air_reserve.csv", parse_dates=["visit_datetime", "reserve_datetime"]),
@@ -25,12 +26,20 @@ store_id_relation = pd.read_csv("../data/store_id_relation.csv")
 # - TODO: weather
 # + reservations (note cancellations and walk-ins: relationship to holidays)
 
-air["visit_data"]["day_of_week"] = air["visit_data"]["visit_date"].dt.dayofweek
+air["visit_data"]["num_of_week"] = air["visit_data"]["visit_date"].dt.dayofweek
 
 corr_table = air["visit_data"]
-corr_table = pd.merge(corr_table, air["store_info"]["air_genre_name"].to_frame(), on="air_store_id")
-corr_table = pd.merge(corr_table, date_info["calendar_date", "holiday_flg"],
+corr_table = pd.merge(corr_table, air["store_info"], on="air_store_id")
+corr_table = pd.merge(corr_table, date_info,
                       left_on="visit_date", right_on="calendar_date")
+corr_table["air_area_name"] = corr_table["air_area_name"].str.partition(" ")
+corr_table["weekend_flg"] = corr_table["num_of_week"].map(lambda n: 1 if n in (1,2) else 0)
+corr_table["not_workday_flg"] = corr_table["holiday_flg"].combine(corr_table["weekend_flg"], xor)
+corr_table = corr_table.drop(columns=["day_of_week", "visit_date"])
+
+print(corr_table.head())
+print(corr_table.corr())
+
 """
 if __name__ == "__main__":
     air["visit_data"].groupby('day_of_week')['visitors'].mean().plot(kind="bar")
