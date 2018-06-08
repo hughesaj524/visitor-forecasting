@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "causal-inquiry-206310",
+  "private_key_id": "a05f892386f2d2da3dfe11a3714168556b42f6a8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD6Xkq+qDmbC3r6\nCAc5Ol4wQzFsu/jUzbZu6/+9t7IOkUtJaRyJ7zWLGOUDX5H0x5LptKzifkOE4Skc\nPzgmesbXaX0Frpg8d2Q9qpkzlkLiwyta7xXrpe7VOEX+0Vn3HKk7KZr7XdTXI9v+\niWTkGckWznQS2JegG9UhA4QpnIiyiqisbZ1rE9jx+T7ntEkpl4mb8AzRY49o3Svj\ngRgRjTMA9gpFFlTx9WUyTyZ0UBQ2aEJ7+7LaYbO5sQYf1TsIMDeV8M8o9SlJ+ryB\n4Nxod9zIUAVo8ULHyDn/Fom4kqT3NPG9X6iyzzOKYlqUccweXbLPzrxSewCdX61W\n1/lrOeOVAgMBAAECggEAMasLjnOui+LU6G23yyNYZKAr2auXs1XFA4/HahJbXTb3\nNc7HpdiB6YCMjCUFPkdqTnk0k/EjAWUuo+cpwz53nGvVrM8kbdhslyw1HM4KIlTA\nENfd5CQEs6Foh2LuQ07ZBr7b+1JzwyNexQnqLTMtWJwn3EZCHDXxS82YBi5C0xI4\n7Rwk9G85f6YvfoGB25x5EEXpjZINd02KL7Y1MOvfrqUL2iUOySr0j7aUdfhrlx6B\nkwiysUKtif7pRlPkdtKdTQrdG5JSIeUpvgNk9fCNiebZDTIgi/7qCFhIqF1YUYO5\nRFineHUE50CtIpqyIY9Pl/BKXvHuS7G5u/TXTuzqsQKBgQD+0vQdVFCwullhD1pJ\nbFRD49N2uhXcTJheYf74WYd618f1B7lVZmzk+o8ZdTEplIdYNhaa50bmS3x47LgQ\n8bCzAhgDUKrqlZcoeXKa5Hjr1STvT5Oxq/LpiB88TLsCULospbwjQgH9mYafNQ97\nkNEsUjhhZoVavIa9QS7NLf1ycQKBgQD7hhMQionW8VI28MNBu/x6GIQzX5wMDgwY\nNhdW+3w/q4BeiJPXohBrVTCDmc0YxCXY8xikveie1uzABBM9V0NlS9SynOZ0b38J\n67+4eT1de/1ITIcLejDEESQCbCcDftZGimkq2knMtHskjuU6BugyK9rNg+oVvzc8\nlArSfCwNZQKBgQDxAlQf6T7n51fhlMOv7eVE0JWQFS/XzBnQKp8cBJE+fheAiG2h\nd95GMzRkv5Jf4TqhE4cNuvAzn/F57WmpnO2iYLiVahY9CH6OqU7bcHttkYn9TSZD\nRH3aogPo5Cl7Zx6uW5I1RpjbYfkRWv3pwG4VnS318SDvUJ+fH6dEJ9suAQKBgGiy\nlpz8DgR6z04vShfCuIXaTq1TzxD1h/NMEMsUQ9P8/6JaF7BatZr4Cwm8q7Lzcw2r\no0ZwBrSXolULXTbbbCJuPktbJFKzVp46k8OmM/UF95hwwoX0hvgWanbXriW2Vltm\nogBEfRPIzLmbAa/10BGST7Hch0QmJEgDF74mEfBBAoGBAMmB+8rFZiqVmUguI/kr\nfUhjljLnguIrhI3p2b5VLYtrA4d3RV3GpC0ZSoEEy06JO5xTPbwxwYhqnXF8oljj\n80wt+mkx66Ai3yX57CS8qtZUwVq2BpOMTHSjNVyuuBOCX2lywMCwHYbEG9OzYTk/\nIhltWk0JWRRrVnZ4A1WAGkzf\n-----END PRIVATE KEY-----\n",
+  "client_email": "ails-laptop@causal-inquiry-206310.iam.gserviceaccount.com",
+  "client_id": "112710844823960645329",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ails-laptop%40causal-inquiry-206310.iam.gserviceaccount.com"
+}
